@@ -10,7 +10,7 @@ class QPushButton;
 
 
 class FindDialog : public QDialog{
-    Q_OBJECT;
+    Q_OBJECT
 
     public:
         FindDialog(QWidget *parent = 0);
@@ -30,6 +30,11 @@ class FindDialog : public QDialog{
         QCheckBox *backwardCheckBox;
         QPushButton *findButton;
         QPushButton *closeButton;
+
+
 };
 
+
 #endif // FINDDIALOG_H
+
+
